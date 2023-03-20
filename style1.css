@@ -1,0 +1,71 @@
+body{
+    background-color: lightyellow;
+}
+
+.navbar {
+  width: 100%;
+  background-color: lightcoral;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  width: 30%; /* Four links of equal widths */
+  text-align: center;
+  color: blue;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.navbar a:hover {
+  background-color: lightpink;
+}
+
+
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+  .top{
+    color:greenyellow;
+    font-size:50px;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  }
+
+  div.gallery {
+    align-content: center;
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 480px;
+    height:450px;
+   
+    box-shadow: 10px 10px 5px lightblue;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+
+    height: 100%;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    font-size:30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 1px 1px 2px white, 0 0 25px violet, 0 0 5px black;
+    color:darkred;
+  }
